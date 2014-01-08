@@ -1,0 +1,11 @@
+#content {
+    position: relative;
+    top: 30%;
+    font-size: 75px;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    height: 275px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    width: 100% !important;
+    padding-top: 30px;
+}
