@@ -24,6 +24,27 @@ body {
     font-weight: bold;
 }
 
+#connect {
+    padding-top: 50px;
+    font-size: 10px;
+}
+
+a {
+    cursor: auto;
+    text-decoration:none !important;
+    color: #808080;
+}
+
+#resume {
+    position: relative;
+    font-size: 14px;
+}
+
+#resume a {
+    position: absolute;
+    left:-30%
+}
+
 @media screen and (min-width: 1200px) {
     .caps {
         font-size: 90px;
@@ -35,7 +56,7 @@ body {
 }
 
 @media screen and (min-width: 992px)
-    and (max-width: 1199px) {
+and (max-width: 1199px) {
     .caps {
         font-size: 72px;
     }
@@ -66,27 +87,5 @@ and (max-width: 991px)
     .small {
         font-size: 26px;
     }
-}
-
-
-#connect {
-    padding-top: 50px;
-    font-size: 10px;
-}
-
-a {
-    cursor: auto;
-    text-decoration:none !important;
-    color: #808080;
-}
-
-#resume {
-    position: relative;
-    font-size: 14px;
-}
-
-#resume a {
-    position: absolute;
-    left:-30%
 }
 
