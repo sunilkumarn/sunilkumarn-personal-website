@@ -33,7 +33,7 @@ body {
 }
 
 a {
-    cursor: auto;
+    cursor: pointer;
     text-decoration:none !important;
     color: #808080;
 }
