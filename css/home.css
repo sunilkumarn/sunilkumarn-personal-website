@@ -11,6 +11,10 @@ body {
     padding-top: 10px;
 }
 
+#name {
+    position: relative;
+}
+
 .name {
     display: inline;
 }
@@ -69,15 +73,23 @@ and (max-width: 991px)
     font-size: 10px;
 }
 
+#resume {
+    font-size: 10px;
+}
+
 a {
     cursor: auto;
     text-decoration:none !important;
     color: #808080;
 }
 
-/*#resume {*/
-    /*position: absolute;*/
-    /*left: 50%;*/
-    /*font-size: 14px;*/
-/*}*/
+#resume {
+    position: relative;
+    font-size: 14px;
+}
+
+#resume a {
+    position: absolute;
+    left: 8%
+}
 
