@@ -1,11 +1,83 @@
+body {
+    background-image: url('../images/background.jpg');
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+
 #content {
     position: relative;
     top: 30%;
-    font-size: 75px;
-    font-family: 'Source Sans Pro', sans-serif !important;
-    height: 275px;
-    border-bottom: 1px solid;
-    border-top: 1px solid;
+    height: 200px;
     width: 100% !important;
-    padding-top: 30px;
+    padding-top: 10px;
 }
+
+.name {
+    display: inline;
+}
+
+.caps {
+    font-weight: bold;
+}
+
+@media screen and (min-width: 1200px) {
+    .caps {
+        font-size: 90px;
+    }
+
+    .small {
+        font-size: 65px;
+    }
+}
+
+@media screen and (min-width: 992px)
+    and (max-width: 1199px) {
+    .caps {
+        font-size: 72px;
+    }
+
+    .small {
+        font-size: 52px;
+    }
+}
+
+@media screen and (min-width: 768px)
+and (max-width: 991px)
+{
+    .caps {
+        font-size: 54px;
+    }
+
+    .small {
+        font-size: 39px;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .caps {
+        font-size: 36px;
+    }
+
+    .small {
+        font-size: 26px;
+    }
+}
+
+
+#connect {
+    padding-top: 50px;
+    font-size: 10px;
+}
+
+a {
+    cursor: auto;
+    text-decoration:none !important;
+    color: #808080;
+}
+
+/*#resume {*/
+    /*position: absolute;*/
+    /*left: 50%;*/
+    /*font-size: 14px;*/
+/*}*/
+
