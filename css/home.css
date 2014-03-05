@@ -25,6 +25,7 @@ background-color: #840b2a;
 }
 
 .name {
+    color: #000
     display: inline;
 }
 
@@ -50,7 +51,7 @@ a {
 
 #resume a {
     position: absolute;
-    left:-30%
+    left:-44%
 }
 
 @media screen and (min-width: 1200px) {
