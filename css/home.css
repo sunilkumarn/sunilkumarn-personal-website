@@ -8,6 +8,10 @@ linear-gradient(90deg, transparent 50%, rgba(255,255,255,.19) 50%);
 background-size: 13px, 29px, 37px, 53px;
 }
 
+.col-sm-1 {
+  width: 11.333333333333332% !important ;
+}
+
 #content {
     position: absolute;
     top: 30%;
@@ -94,10 +98,4 @@ and (max-width: 991px)
         font-size: 26px;
     }
 }
-
-
-//Bootstrap
-
-.col-sm-1 {
-  width: 11.333333333333332% !important ;
-} 
+ 
