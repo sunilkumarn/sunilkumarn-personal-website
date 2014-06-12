@@ -1,7 +1,6 @@
 body {
-  background: url('../images/bg.jpg') no-repeat fixed top right;
+  background: url('../images/bg.jpg') no-repeat fixed top right
 }
-
 
 .col-sm-1 {
   width: 11.333333333333332% !important ;
