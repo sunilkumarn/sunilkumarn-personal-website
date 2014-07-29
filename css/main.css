@@ -63,7 +63,17 @@ h1,h2,h3,h4,h5,h6{
     font-weight: bold;
 }
 
-.navbar-default .navbar-nav>li>a:hover, 
+/* My Custom CSS */
+.dropdown-menu {
+   padding: 0px !important;
+   min-width: 100px !important;
+}
+
+.dropdown-menu a {
+    font-size: 0.9em !important;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
 background-color: transparent;
 }

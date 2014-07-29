@@ -130,8 +130,10 @@ $('.chart').waypoint(function() {
             element.text('OK!').addClass('valid')
                 .closest('.control-group').removeClass('error').addClass('success');
         }
-    }); 
+    });
 
-
+    $('.dropdown-menu li').on('click', function() {
+        window.location  = $(this).find('a').attr('href');
+    })
 
 });
