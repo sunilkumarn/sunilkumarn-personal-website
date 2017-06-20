@@ -132,8 +132,8 @@ $('.chart').waypoint(function() {
         }
     });
 
-    $('.dropdown-menu li').on('click', function() {
-        window.location  = $(this).find('a').attr('href');
-    })
+    $('a.go-link').on('click', function() {
+        window.location  = $(this).attr('href');
+    });
 
 });
